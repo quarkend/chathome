@@ -47,6 +47,7 @@ function App() {
       
         {/* <div className="App">{!state.isAuthenticated ? <Login/> : <Home/>}</div> */}
         <Switch>
+          <h1>frfr</h1>
           <Route exact path="/">
             <Home /> 
           </Route>
