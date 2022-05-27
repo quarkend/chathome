@@ -25,7 +25,7 @@
 // export default App;
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
  
@@ -42,7 +42,7 @@ function App() {
   
  
   return (
-    <Router>
+    <Router basename="/chathome/">
 
       
         {/* <div className="App">{!state.isAuthenticated ? <Login/> : <Home/>}</div> */}
